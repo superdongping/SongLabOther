@@ -1,1 +1,11 @@
-
+    % wholeBrainAnalysisGUI - Analyze serial TIFF images with 3 channels.
+    % This modified version:
+    %   1. Displays each merged TIFF image in full-screen.
+    %   2. Allows the user to repeatedly draw ROIs.
+    %   3. Prompts for the nucleus name before drawing each ROI.
+    %   4. Computes ROI properties and saves cropped ROI images.
+    %   5. Quantifies the area (in pixels) of green (Channel 2) and red (Channel 3)
+    %      signals that are above a threshold determined by the display range.
+    %   6. Optionally displays a demo of the thresholded images for pilot testing.
+    %   7. Saves raw data (including nucleus name) to an Excel file and normalizes
+    %      the signal areas across nuclei.
