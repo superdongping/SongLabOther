@@ -4,8 +4,9 @@ How it works (quick usage):
 •	It immediately starts stimulation and echoes the parsed settings.
 •	Send x or stop during stimulation to abort; send s to repeat the last parameters.
 •	Type help for examples.
-type commands like to trigger the laser stimulation:
+type commands like to trigger the laser stimulation [frequency (Hz), pulse width (ms), duration (s)]:
 •	20Hz,5ms,10s
 •	1 Hz 10 ms 1 s
 •	40 2 5 (defaults to Hz, ms, s)
+
 
